@@ -21,12 +21,6 @@ public class User {
 
 
 
-
-
-
-
-
-
         try(Scanner scanner = new Scanner(System.in)){
 
             System.out.print( "Veuillez saisir votre prénom : " );
@@ -63,7 +57,7 @@ public class User {
 
                 Userservice users = new Userservice(name, surname,  age,  Email,  list);
                 userList.add(users);
-                System.out.println( user);
+               
 
             }
 
